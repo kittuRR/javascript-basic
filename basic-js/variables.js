@@ -4,11 +4,10 @@ var accountPassword = 11223344
 accountCity = "Mumbai"
 
 // accountId = 121212    // not allowed beacause of constant
-accountEmail = "sample@gmail.com"
+/* accountEmail = "sample@gmail.com"
 accountPassword = 33445566
-accountCity = "Nashik"
+accountCity = "Nashik" */
  
 let accountState;
 
-console.log(accountId);
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
